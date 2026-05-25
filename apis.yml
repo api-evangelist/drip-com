@@ -1,0 +1,208 @@
+aid: drip-com
+name: Drip
+url: https://raw.githubusercontent.com/api-evangelist/drip-com/refs/heads/main/apis.yml
+description: Drip is a Minneapolis-based ecommerce marketing automation platform that combines email, SMS, popups, and
+  workflow-driven customer journeys for direct-to-consumer brands. The Drip REST API v2 and v3 exposes accounts, subscribers,
+  events, campaigns, broadcasts, workflows, tags, custom fields, conversions, orders, cart activity, product activity,
+  forms, webhooks, and shopper activity endpoints for building deep ecommerce integrations and data pipelines.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+kind: contract
+position: Consuming
+access: 3rd-Party
+tags:
+- Marketing
+- Email
+- SMS
+- Ecommerce
+- Automation
+- Customer Data
+- Workflows
+created: '2026-05-25'
+modified: '2026-05-25'
+specificationVersion: '0.19'
+apis:
+- aid: drip-com:drip-rest-api
+  name: Drip REST API
+  description: The Drip REST API provides programmatic access to accounts, subscribers, events, email series campaigns,
+    single-email campaigns (broadcasts), workflows, workflow triggers, tags, custom fields, conversions, orders, cart
+    activity, product activity, forms, users, webhooks, and shopper activity endpoints. It is used to build ecommerce
+    marketing automation across email, SMS, and on-site channels for direct-to-consumer brands.
+  humanURL: https://developer.drip.com/
+  baseURL: https://api.getdrip.com
+  tags:
+  - Subscribers
+  - Events
+  - Campaigns
+  - Broadcasts
+  - Workflows
+  - Tags
+  - Custom Fields
+  - Conversions
+  - Orders
+  - Cart Activity
+  - Product Activity
+  - Forms
+  - Webhooks
+  - Shopper Activity
+  - Accounts
+  - Users
+  properties:
+  - type: Documentation
+    url: https://developer.drip.com/
+  - type: APIReference
+    url: https://developer.drip.com/
+  - type: Authentication
+    url: https://developer.drip.com/#authentication
+  - type: RateLimits
+    url: https://developer.drip.com/#rate-limiting
+  - type: Webhooks
+    url: https://developer.drip.com/#webhooks
+- aid: drip-com:drip-oauth-api
+  name: Drip OAuth 2.0 API
+  description: The Drip OAuth 2.0 API authorizes public integrations to act on behalf of Drip users. It exposes the
+    authorize and token endpoints needed to obtain access tokens for the Drip REST API.
+  humanURL: https://developer.drip.com/#oauth-2-0
+  baseURL: https://www.getdrip.com
+  tags:
+  - OAuth
+  - Authentication
+  - Authorization
+  properties:
+  - type: Documentation
+    url: https://developer.drip.com/#oauth-2-0
+common:
+- type: Website
+  url: https://www.drip.com
+- type: Portal
+  url: https://developer.drip.com/
+- type: Documentation
+  url: https://developer.drip.com/
+- type: APIReference
+  url: https://developer.drip.com/
+- type: Authentication
+  url: https://developer.drip.com/#authentication
+- type: RateLimits
+  url: https://developer.drip.com/#rate-limiting
+- type: SignUp
+  url: https://www.getdrip.com/signup
+- type: Console
+  url: https://www.getdrip.com/user/applications
+- type: StatusPage
+  url: https://status.drip.com
+- type: Support
+  url: https://help.drip.com/
+- type: Blog
+  url: https://www.drip.com/blog
+- type: Pricing
+  url: https://www.drip.com/pricing
+- type: TermsOfService
+  url: https://www.drip.com/legal/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.drip.com/legal/privacy
+- type: GitHubOrganization
+  url: https://github.com/DripEmail
+- type: LinkedIn
+  url: https://www.linkedin.com/company/drip-com
+- type: Twitter
+  url: https://twitter.com/getdrip
+- type: SDK
+  url: https://github.com/DripEmail/drip-ruby
+  name: drip-ruby
+  description: Official Ruby gem for the Drip REST API v2.0.
+- type: SDK
+  url: https://github.com/DripEmail/drip-nodejs
+  name: drip-nodejs
+  description: Official Node.js wrapper for the Drip REST API.
+- type: SDK
+  url: https://github.com/DripEmail/drip-php
+  name: drip-php
+  description: Object-oriented PHP wrapper for the Drip API.
+- type: SDK
+  url: https://github.com/DripEmail/drip-dot-net
+  name: drip-dot-net
+  description: Object-oriented .NET wrapper for the Drip REST API v2.0.
+- type: SDK
+  url: https://github.com/DripEmail/omniauth-drip
+  name: omniauth-drip
+  description: Omniauth strategy for connecting Ruby clients to the Drip API.
+- type: Integration
+  url: https://github.com/DripEmail/drip-wordpress
+  name: WordPress Plugin
+  description: Official Drip plugin for WordPress sites.
+- type: Integration
+  url: https://github.com/DripEmail/drip-woocommerce
+  name: WooCommerce Plugin
+  description: Official Drip plugin connecting WordPress/WooCommerce stores to Drip.
+- type: Integration
+  url: https://github.com/DripEmail/magento-m2-extension
+  name: Magento 2 Extension
+  description: Official Drip extension for Magento 2 stores.
+- type: Integration
+  url: https://github.com/DripEmail/magento-m1-extension
+  name: Magento 1 Extension
+  description: Official Drip extension for legacy Magento 1 stores.
+- type: Features
+  data:
+  - name: Email Marketing
+    description: Drag-and-drop visual email builder with branded templates, conditional content, and dynamic ecommerce blocks.
+  - name: SMS Marketing
+    description: Two-way SMS campaigns and automations alongside email in a single workflow.
+  - name: Workflows
+    description: Visual multi-step automation builder with branching logic, delays, and ecommerce-aware triggers.
+  - name: Segmentation
+    description: Behavioral and ecommerce segmentation across subscriber events, tags, custom fields, and shopper activity.
+  - name: Forms and Popups
+    description: Onsite forms, popups, and embedded forms for list growth and lead capture.
+  - name: REST API v2 and v3
+    description: Public REST API at api.getdrip.com covering subscribers, events, campaigns, workflows, orders, and shopper activity.
+  - name: Webhooks
+    description: Outbound webhooks for subscriber lifecycle, email engagement, conversions, and ecommerce activity.
+  - name: OAuth 2.0
+    description: OAuth 2.0 authorization for public integrations alongside API key authentication for private integrations.
+  - name: Rate Limits
+    description: 3,600 individual requests per hour and up to 50 batch requests per hour, with up to 1,000 records per batch call.
+  - name: Ecommerce Activity Tracking
+    description: Cart, order, and product activity endpoints purpose-built for direct-to-consumer brands.
+  - name: Native Ecommerce Integrations
+    description: First-party integrations with Shopify, WooCommerce, BigCommerce, Magento, and other ecommerce platforms.
+  sources:
+  - https://developer.drip.com/
+  - https://www.drip.com
+  updated: '2026-05-25'
+- type: UseCases
+  data:
+  - name: Ecommerce Marketing Automation
+    description: Drive repeat purchases, abandoned cart recovery, and post-purchase journeys for direct-to-consumer brands.
+  - name: Email and SMS Customer Journeys
+    description: Coordinate multi-channel customer journeys across email and SMS from a single workflow.
+  - name: Subscriber and Event Data Pipelines
+    description: Stream subscriber profile updates and behavioral events from custom applications into Drip via the REST API.
+  - name: Custom Ecommerce Integrations
+    description: Integrate proprietary storefronts with Drip using the cart, order, and product activity endpoints.
+  - name: Lead Capture and List Growth
+    description: Capture leads from onsite forms and popups and route them into segmented nurture workflows.
+- type: Integrations
+  data:
+  - name: Shopify
+    description: First-party Shopify integration syncs customers, orders, products, and cart activity into Drip.
+  - name: WooCommerce
+    description: Official WordPress/WooCommerce plugin connects stores to Drip for ecommerce automation.
+  - name: BigCommerce
+    description: Native BigCommerce integration syncs ecommerce events and customer data into Drip.
+  - name: Magento
+    description: Official Magento 1 and Magento 2 extensions connect stores to Drip.
+  - name: WordPress
+    description: Official WordPress plugin for embedding forms and tracking visitor activity.
+  - name: Facebook Custom Audiences
+    description: Sync Drip segments to Facebook for targeted advertising.
+  - name: Zapier
+    description: Connect Drip to thousands of apps via Zapier triggers and actions.
+- type: Solutions
+  data:
+  - name: Ecommerce Brands
+    description: Marketing automation tailored for direct-to-consumer ecommerce brands and online stores.
+  - name: Bloggers and Creators
+    description: Email marketing and audience engagement workflows for bloggers, creators, and content businesses.
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
