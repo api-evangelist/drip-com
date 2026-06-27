@@ -2,17 +2,20 @@
   "repo": "drip-com",
   "feeds": [
     {
-      "source": "https://www.drip.com/blog",
+      "source": "https://www.drip.com/blog/rss.xml",
       "feed_url": "https://www.drip.com/blog/rss.xml",
       "title": "",
       "saved": 3,
-      "method": "discovered"
+      "method": "feed"
     },
     {
       "source": "https://help.drip.com/",
-      "error": "HTTPError"
+      "feed_url": "https://help.drip.com/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     }
   ],
-  "post_count": 3,
-  "fetched": "2026-06-14T20:42:17Z"
+  "post_count": 20,
+  "fetched": "2026-06-27T12:03:07Z"
 }

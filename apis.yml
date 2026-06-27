@@ -83,7 +83,7 @@ common:
   url: https://developer.drip.com/#authentication
 - type: RateLimits
   url: https://developer.drip.com/#rate-limiting
-- type: SignUp
+- type: Signup
   url: https://www.getdrip.com/signup
 - type: Console
   url: https://www.getdrip.com/user/applications
@@ -105,39 +105,39 @@ common:
   url: https://www.linkedin.com/company/drip-com
 - type: Twitter
   url: https://twitter.com/getdrip
-- type: SDK
+- type: SDKs
   url: https://github.com/DripEmail/drip-ruby
   name: drip-ruby
   description: Official Ruby gem for the Drip REST API v2.0.
-- type: SDK
+- type: SDKs
   url: https://github.com/DripEmail/drip-nodejs
   name: drip-nodejs
   description: Official Node.js wrapper for the Drip REST API.
-- type: SDK
+- type: SDKs
   url: https://github.com/DripEmail/drip-php
   name: drip-php
   description: Object-oriented PHP wrapper for the Drip API.
-- type: SDK
+- type: SDKs
   url: https://github.com/DripEmail/drip-dot-net
   name: drip-dot-net
   description: Object-oriented .NET wrapper for the Drip REST API v2.0.
-- type: SDK
+- type: SDKs
   url: https://github.com/DripEmail/omniauth-drip
   name: omniauth-drip
   description: Omniauth strategy for connecting Ruby clients to the Drip API.
-- type: Integration
+- type: Integrations
   url: https://github.com/DripEmail/drip-wordpress
   name: WordPress Plugin
   description: Official Drip plugin for WordPress sites.
-- type: Integration
+- type: Integrations
   url: https://github.com/DripEmail/drip-woocommerce
   name: WooCommerce Plugin
   description: Official Drip plugin connecting WordPress/WooCommerce stores to Drip.
-- type: Integration
+- type: Integrations
   url: https://github.com/DripEmail/magento-m2-extension
   name: Magento 2 Extension
   description: Official Drip extension for Magento 2 stores.
-- type: Integration
+- type: Integrations
   url: https://github.com/DripEmail/magento-m1-extension
   name: Magento 1 Extension
   description: Official Drip extension for legacy Magento 1 stores.
