@@ -5,7 +5,18 @@ description: Drip is a Minneapolis-based ecommerce marketing automation platform
   workflow-driven customer journeys for direct-to-consumer brands. The Drip REST API v2 and v3 exposes accounts, subscribers,
   events, campaigns, broadcasts, workflows, tags, custom fields, conversions, orders, cart activity, product activity,
   forms, webhooks, and shopper activity endpoints for building deep ecommerce integrations and data pipelines.
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/drip-com.png
 kind: contract
 position: Consuming
 access: 3rd-Party
